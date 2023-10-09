@@ -1,59 +1,59 @@
 /****** General ******/
- *﹛
+* ﹛
      font-family: 'Raleway', sans-serif;
 }
 
-:root ﹛
+:root﹛
      --main-color: #0065FC;kiki
      --main-bg-color: #F2F2F2;
      --filter-bg-color: #DEEBFF;
 }
 
-.fa-solid ﹛
-     color: var (--main-color);
+.fa-solid﹛
+     color: var(--main-color);
 }
 
-body ﹛
+body﹛
      display: flex;
      justify-content: center;
 }
 
-.mainContainer ﹛
+.mainContainer﹛
      width: 100%;
      max-width: 1440px; /* 1400px ??? */
-     pading: 0 50px;
+     padding: 0 50px;
      box-sizing: border-box;
 }
 
-.sectionTitle ﹛
+.sectionTitle﹛
      margin: 0;
      font-size: 22px;
 }
 
-.card ﹛
+.card﹛
      background-color: white;
      border-radius: 20px;
      padding: 5px;
 }
 
-.card img ﹛
+.card img﹛
      object-fit: cover;
 }
 
-.cardTitle ﹛
+.cardTitle﹛
      font-size: 16px;
 }
 
-.euro ﹛
+.euro﹛
      font-weight: 700;
 }
 
-.neutralStar ﹛
+.neutralStar﹛
      color: var(--main-bg-color)
 }
 
-/****** Herbegements And Populaires ******/
-.HebergementsAndPopulaires ﹛
+/****** Hebergements And Populaires ******/
+.HebergementsAndPopulaires﹛
      display: flex;
      justify-content: space-between;
 }
@@ -65,35 +65,35 @@ body ﹛
      box-sizing: border-box;
 }
 
-/****** Herbergements ******/
-.Herbegements ﹛
+/****** Hebergements ******/
+.Hebergements﹛
      width: 65%;
 }
 
 /****** Populaires ******/
-.Populaires ﹛
+.Populaires﹛
      width: 31%;
 }
 
-.PopulairesTitle ﹛
+.PopulairesTitle﹛
      display: flex;
      justify-content: space-between;
      align-items: center;
 }
 
-.PopulairesCards .card ﹛
+.PopulairesCards .card﹛
      display: flex;
      margin-top: 33px;
 }
 
-.PopulairesCards img ﹛
+.PopulairesCards img﹛
      width: 37%;
      height: 134px;
      border-top-left-radius: 20px;
      border-bottom-left-radius: 20px;
 }
 
-.PopulairesCards .CardContent ﹛
+.PopulairesCards .CardContent﹛
      width: 63%;
      padding-left: 15px;
      display: flex;
@@ -101,22 +101,22 @@ body ﹛
      justify-content: space-between;
 }
 
-.PopulairesCards .CardTitle ﹛
+.PopulairesCards .CardTitle﹛
      margin-top: 11px;
      margin-bottom: 4px;
 }
 
-.PopulairesCards .CardSubtitle ﹛
+.PopulairesCards .CardSubtitle﹛
      margin: 0;
 }
 
-.populairesCards .CardRating ﹛
+.populairesCards .CardRating﹛
      margin-bottom: 7px;
 }
 
 /****** Media queries ******/
-@Media (max-width: 991.98px) ﹛
-     .HebergementsAndPopulaires ﹛
+@Media (max-width: 991.98px)﹛
+     .HebergementsAndPopulaires﹛
           flex-direction: column;
      }
 }
